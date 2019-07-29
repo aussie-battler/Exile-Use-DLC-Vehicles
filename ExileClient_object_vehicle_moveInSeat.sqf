@@ -30,6 +30,10 @@ switch (_seatToGetIn) do
 		player assignAsCommander _vehicle;
 		player moveInCommander _vehicle;
 	};
+	case "Pilot":
+	{
+		player assignAsDriver _vehicle;
+		player moveInDriver _vehicle;	
 	default
 	{
 		player assignAsDriver _vehicle;
