@@ -34,6 +34,7 @@ switch (_seatToGetIn) do
 	{
 		player assignAsDriver _vehicle;
 		player moveInDriver _vehicle;	
+	};	
 	default
 	{
 		player assignAsDriver _vehicle;
